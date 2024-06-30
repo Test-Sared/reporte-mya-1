@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+    color: #a58d05;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.datos {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.datos label {
+    display: block;
+    margin: 6px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-group-1 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-group-1 > div select, option {
+    width: calc(100% - 0px);
+    border: 1px solid #dcbb0060;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+.form-group-1 > div input, textarea {
+    width: calc(100% - 0px);
+    border: 1px solid #dcbb0060;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+#apartamento {
+    width: 100%;
+    border: 1px solid #dcbb0060;
+    padding: 5px;
+    margin-top: 5px;
+}
+#checklistForm {
+    width: 100%;
+    margin: 5px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+table, th, td {
+    border: 1px solid #dcbb0060;
+}
+
+th {
+    background-color: #dcbb0060;
+    text-align: center;
+    padding: 5px;
+    z-index: +2;
+}
+
+td {
+    padding: 2px;
+    text-align: center;
+}
+
+.x {
+    width: 44%;
+}
+.xx {
+    width: 7%;
+}
+
+.xxx {
+    width: 42%;
+}
+
+.columna-1 {
+    text-align: left;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.columna-3 {
+    color: rgb(211, 209, 209);
+    font-size: 8px;
+    text-align: center;
+    align-items: center;
+}
+.columna-3::before {
+    content: '';
+    color: rgb(0, 0, 0);
+    z-index: +2000;
+}
+
+.observaciones {
+    padding: 10px;
+    color: #a58d05;
+}
+
+.form-group-3 > div input, textarea {
+    width: calc(100% - 0px);
+    border: 1px solid #dcbb0060;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.fecha {
+    max-width: 600px;
+    text-align: right;
+    padding: 10px;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 100px;
+}
+
+button {
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #dcbb00;
+    border-color: #dcbb00;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/*ESTRELLAS*/
+.estrellas-rating {
+    display: flex; /* Asegura que los elementos hijos se alineen horizontalmente */
+    align-items: center; /* Centra verticalmente las estrellas con la etiqueta */
+    unicode-bidi: bidi-override;
+    text-align: left;
+    border: 1px solid #dcbb0060;
+    max-width: calc(100% - 0px);
+    margin: 0px auto;
+}
+
+.estrellas-rating .rating {
+    display: flex; /* Asegura que los elementos hijos dentro de .rating se alineen horizontalmente */
+}
+
+.estrellas-rating input {
+    display: none; /* Oculta los inputs */
+}
+
+.estrellas-rating label {
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.3s;
+}
