@@ -125,12 +125,12 @@ td {
     padding: 5px;
     box-sizing: border-box;
     margin-bottom: 5px;
+    font-size: 10px;
 }
 
 .fecha {
     max-width: 600px;
     text-align: right;
-    padding: 10px;
 }
 
 .button {
