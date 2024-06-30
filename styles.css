@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin: 5px;
     background-color: aliceblue;
 }
@@ -99,12 +99,12 @@ td {
 .columna-1 {
     text-align: left;
     align-items: center;
-    padding-left: 5px;
+    padding: 5px;
 }
 
 .columna-3 {
-    color: rgb(211, 209, 209);
-    font-size: 8px;
+    color: rgb(246, 226, 226);
+    font-size: 14px;
     text-align: center;
     align-items: center;
 }
@@ -190,6 +190,6 @@ button {
 
 @media only screen and (max-width: 480px) {
     body {
-      font-size: 10px;
+      font-sie: 10px;
     }
   }
